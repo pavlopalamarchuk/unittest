@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="simple_suite" duration-ms="25" started-at="2018-02-12T08:18:41Z" finished-at="2018-02-12T08:18:41Z">
+    <groups>
+    </groups>
+    <test name="calc" duration-ms="25" started-at="2018-02-12T08:18:41Z" finished-at="2018-02-12T08:18:41Z">
+      <class name="ua.pavlo.calc.samples">
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:ua.pavlo.calc.samples@1bbe5e8]" name="testAdd" duration-ms="7" started-at="2018-02-12T10:18:41Z" finished-at="2018-02-12T10:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testMultiply(int, int, int, int)[pri:0, instance:ua.pavlo.calc.samples@1bbe5e8]" name="testMultiply" duration-ms="0" started-at="2018-02-12T10:18:41Z" finished-at="2018-02-12T10:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method status="PASS" signature="testDivide(int, int, int)[pri:0, instance:ua.pavlo.calc.samples@1bbe5e8]" name="testDivide" duration-ms="0" started-at="2018-02-12T10:18:41Z" finished-at="2018-02-12T10:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method status="PASS" signature="testSquareSum(int, int, int)[pri:0, instance:ua.pavlo.calc.samples@1bbe5e8]" name="testSquareSum" duration-ms="0" started-at="2018-02-12T10:18:41Z" finished-at="2018-02-12T10:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[925]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareSum -->
+        <test-method status="PASS" signature="testSubtract(int, int, int)[pri:0, instance:ua.pavlo.calc.samples@1bbe5e8]" name="testSubtract" duration-ms="0" started-at="2018-02-12T10:18:41Z" finished-at="2018-02-12T10:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+      </class> <!-- ua.pavlo.calc.samples -->
+    </test> <!-- calc -->
+  </suite> <!-- simple_suite -->
+</testng-results>
